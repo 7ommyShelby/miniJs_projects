@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    height: 100vh;
+    width: 100vw;
+    background-color: yellowgreen;
+    text-align: center;
+    padding: 10px;
+}
+.grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .box {
+    width: 60px;
+    height: 60px;
+    outline: 1px solid grey;
+  }
