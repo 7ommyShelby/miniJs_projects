@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    padding: 20px;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    background-color: tan;
+}
+
+form {
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.display {
+    height: fit-content;
+    padding: 10px;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}
+
+.display::-webkit-scrollbar {
+    display: none;
+}
+
+.pack {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: rgb(213, 213, 213);
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    gap: 1rem;
+}
+
+.del {
+    cursor: pointer;
+    color: crimson;
+}
